@@ -4,7 +4,7 @@ const version = 2 + 1
 
 <template>
   <div class="hello">
-    Welcome to Nutribowl
+    Nutribowl
   </div>
 </template>
 
