@@ -36,7 +36,7 @@
   </div>
 </template>
 
-<style >
+<style>
 /* Custom CSS */
 html, body {
   height: 100%;
@@ -46,7 +46,7 @@ html, body {
   text-align: center;
 }
 body {
-  background: url('img/Background.png') no-repeat center center fixed;
+  background: url('/img/Background.png') no-repeat center center fixed;
   background-size: cover;
 }
 
