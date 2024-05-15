@@ -26,7 +26,8 @@ def get_recipes():
     recipes = [
         {"id": 1, "name": "Massive Muesli"},
         {"id": 2, "name": "Cauliflower, Chickpea and Kale Curry"},
-        {"id": 3, "name": "Bean Chilli"}
+        {"id": 3, "name": "Bean Chilli"},
+        {"id": 4, "name": "Ginger Kombucha"}
     ]
     return {"recipes": recipes}
 
