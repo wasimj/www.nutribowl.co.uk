@@ -2,9 +2,19 @@
 
 from pydantic import BaseModel
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from typing import List
 
 app = FastAPI()
+
+# CORS middleware configuration
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:3000"],  # List of allowed origins
+    allow_credentials=True,
+    allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],  # List of allowed methods
+    allow_headers=["Content-Type", "Authorization"],  # List of allowed headers
+)
 
 class Recipe(BaseModel):
     id: int
