@@ -6,7 +6,6 @@
         <h1 class="text-4xl font-bold mb-2">Nutribowl</h1>
         <p class="mb-4">Nutritious, Tasty, Quick</p>
         <p class="mb-4">Pick Three!</p>
-        <button class="bg-white text-blue-500 font-bold py-3 px-6 rounded hover:bg-gray-100 transition duration-300 ease-in-out transform hover:-translate-y-1">Get Started</button>
       </div>
     </section>
 
