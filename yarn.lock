@@ -5488,7 +5488,7 @@ vue-devtools-stub@^0.1.0:
 
 vue-gtag-next@^1.14.0:
   version "1.14.0"
-  resolved "https://registry.npmjs.org/vue-gtag-next/-/vue-gtag-next-1.14.0.tgz"
+  resolved "https://registry.yarnpkg.com/vue-gtag-next/-/vue-gtag-next-1.14.0.tgz#793aef0b90dff4213b9f3a79827cd99b06e678dd"
   integrity sha512-iJl+cOG2GU5NuxqzSSIpt03WVOvZqyKB9TOy7d55KiuvRklcnb2nlqxW5B/a3/sbIt7fla+XEkRyMCcoz0zAHw==
 
 vue-observe-visibility@^2.0.0-alpha.1:
