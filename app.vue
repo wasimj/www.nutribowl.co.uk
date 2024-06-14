@@ -11,7 +11,7 @@
 
     <!-- Menus Section -->
     <section class="flex-1 flex flex-col items-center p-10 bg-gray-100 text-gray-800">
-      <h2 class="text-3xl font-bold mb-6">Menus</h2>
+      <h2 class="text-3xl font-bold mb-6">Nutribowl Menus</h2>
       <div class="flex flex-wrap justify-center gap-4">
 
         <div class="bg-white shadow-lg rounded-lg p-6 w-80 transition duration-300 ease-in-out hover:shadow-xl hover:scale-105" v-for="recipe in recipes" :key="recipe.id">
